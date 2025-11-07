@@ -130,7 +130,7 @@ const DEFAULT_CATEGORIES = [
 
 // Loading animation now uses native Swimlane arc spinner (no external GIF needed)
 
-export class RoiCalculatorWidget extends SwimlaneElement {
+export default class RoiCalculatorWidget extends SwimlaneElement {
   static get styles() {
     return [
       super.styles,
